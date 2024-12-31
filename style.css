@@ -151,7 +151,7 @@ span.next{
     bottom: -10px;
     z-index: -1;
 }
-.sec2::after{
+.sec2 ::after{
     content: '';
     width: 4px;
     height: 100px;
