@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year 2025 My love</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <audio id="background-music" loop>
+        <source src="/janamjanam.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="happy">Happy New Year My KajuKatli</div>
+    <div class="sec1">
+        <span>202</span>
+        <span class="current">4</span>
+        <span class="next">5</span>
+        <div class="sec2"></div>
+    </div>
+    <div class="love-text">I love You So My Much Kishmish</div> 
+
+    <div class="scroll-box">
+        
+           
+    </div>
+
+ 
+    <div class="fire">
+        <div class="f1">
+            <span><i></i></span>
+            <span><i></i></span>
+            <span><i></i></span>
+        </div>
+        <div class="f2">
+            <span><i></i></span>
+            <span><i></i></span>
+            <span><i></i></span>
+        </div>
+        <div class="f3">
+            <span><i></i></span>
+            <span><i></i></span>
+            <span><i></i></span>
+        </div>
+        <div class="f4">
+            <span><i></i></span>
+            <span><i></i></span>
+            <span><i></i></span>
+        </div>
+    </div>
+
+    <script>
+        // Ensure the audio plays after user interaction
+        const audio = document.getElementById('background-music');
+
+        // Check if the browser allows autoplay
+        document.addEventListener('click', () => {
+            if (audio.paused) {
+                audio.play().catch((error) => {
+                    console.error("Error playing audio:", error);
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>
